@@ -1,0 +1,50 @@
+#header {
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 93.2vh;
+}
+
+.main-header{
+    padding-top: 20%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    border: #ffffff solid 4px;
+    border-radius: 55px;
+    padding: 2% 3%;
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+    transition:border .4s ease-out;
+    transition-delay: .2s;
+}
+
+h1:hover {
+    border: orange solid 4px;
+}
+
+p {
+    margin-top: 3%;
+}
+
+#about {
+    margin-top: 3%;
+}
+
+h2 {
+    display: inline;
+    transition: border .4s ease-out;
+    transition-delay: .1.5s;
+}
+
+h2:hover {
+    border-bottom: orange solid 3px;
+    border-top: #5aec2e solid 3px;
+    border-radius: 10px;
+}
